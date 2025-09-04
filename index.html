@@ -7,6 +7,36 @@
 
   <!-- 🔗 Aquí está la mejora: enlazamos la hoja de estilos -->
   <link rel="stylesheet" href="./assets/style.css?v=1">
+  <style>
+  /* === Compact mode overrides === */
+  :root{
+    --px: clamp(16px, 3vw, 28px);
+    --py: clamp(18px, 3vw, 32px);
+    --grid-gap: clamp(12px, 1.5vw, 20px);
+    --header-size: clamp(.9rem, .9vw, 1.1rem);
+    --cross-size: clamp(.5rem, .8vw, 1.25rem);
+  }
+
+  /* Secciones y hero */
+  .hero{
+    padding-top: calc(var(--py) * 2);
+    min-height: 80vh;           /* antes 100vh */
+  }
+  .projects{
+    padding-top: 3vh;
+    padding-bottom: 6vh;
+  }
+
+  /* Títulos grandes (bajamos topes máximos) */
+  .hero-title{   font-size: clamp(32px, 7vw, 88px); }
+  .clients-title{font-size: clamp(24px, 6vw, 72px); }
+  .cap-title{    font-size: clamp(28px, 7vw, 88px); }
+  .project-title{font-size: clamp(18px, 2.4vw, 36px); }
+
+  /* Footer un poco más compacto */
+  footer{ padding: calc(var(--py) * 0.8) 0; }
+</style>
+
 </head>
 <body>
 
