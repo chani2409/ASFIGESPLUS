@@ -1,66 +1,127 @@
 <!doctype html>
-<div class="card-face">
-<div class="card-head"><h3 class="card-title">Diseño</h3><div class="card-letter">B</div></div>
-<ul class="card-list"><li>UI / UX</li><li>Design systems</li><li>Prototipos</li></ul>
-<div class="muted mono">hover para girar</div>
-</div>
-<div class="card-face back">
-<div class="card-head"><h3 class="card-title">Diseño</h3><div class="card-letter">B</div></div>
-<ul class="card-list"><li>Accesibilidad</li><li>Animación</li><li>Motion guidelines</li></ul>
-</div>
-</div>
-</div>
-<div class="card">
-<div class="card-inner tilt">
-<div class="card-face">
-<div class="card-head"><h3 class="card-title">Código</h3><div class="card-letter">C</div></div>
-<ul class="card-list"><li>Frontend (SPA/SSR)</li><li>Integración APIs</li><li>Performance</li></ul>
-<div class="muted mono">hover para girar</div>
-</div>
-<div class="card-face back">
-<div class="card-head"><h3 class="card-title">Código</h3><div class="card-letter">C</div></div>
-<ul class="card-list"><li>Tooling moderno</li><li>Testing</li><li>DevOps básico</li></ul>
-</div>
-</div>
-</div>
-<div class="card">
-<div class="card-inner tilt">
-<div class="card-face">
-<div class="card-head"><h3 class="card-title">Contenido</h3><div class="card-letter">D</div></div>
-<ul class="card-list"><li>Narrativas</li><li>SEO técnico</li><li>Documentación</li></ul>
-<div class="muted mono">hover para girar</div>
-</div>
-<div class="card-face back">
-<div class="card-head"><h3 class="card-title">Contenido</h3><div class="card-letter">D</div></div>
-<ul class="card-list"><li>Guías editoriales</li><li>Catálogos</li><li>Playbooks</li></ul>
-</div>
-</div>
-</div>
-</div>
-</section>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Estudio Demo — Portafolio Interactivo</title>
 
+  <!-- 🔗 Aquí está la mejora: enlazamos la hoja de estilos -->
+  <link rel="stylesheet" href="./assets/style.css?v=1">
+</head>
+<body>
 
-<footer id="contacto">
-<div class="footer-grid">
-<div class="foot-brand reveal is-in">
-<div class="brand"><span class="mark"></span><span>Estudio Demo</span></div>
-<p class="muted">Hecho con ♥ como demo libre de derechos. Inspirado en el layout compartido, sin activos propietarios.</p>
-</div>
-<div class="foot-news reveal is-in">
-<strong>Newsletter</strong>
-<form class="newsletter" onsubmit="event.preventDefault(); alert('¡Gracias! (demo)');">
-<input type="email" placeholder="tu@email.com" aria-label="Correo" required>
-<button type="submit">Enviar</button>
-</form>
-<div class="foot-bottom"><span class="mono">© <span id="year">2025</span> Estudio Demo</span><a class="mono" href="#inicio">Volver arriba ↑</a></div>
-</div>
-</div>
-</footer>
+  <section class="section cap" id="capacidades">
+    <div class="card">
+      <div class="card-inner tilt">
+        <div class="card-face">
+          <div class="card-head">
+            <h3 class="card-title">Diseño</h3>
+            <div class="card-letter">B</div>
+          </div>
+          <ul class="card-list">
+            <li>UI / UX</li>
+            <li>Design systems</li>
+            <li>Prototipos</li>
+          </ul>
+          <div class="muted mono">hover para girar</div>
+        </div>
+        <div class="card-face back">
+          <div class="card-head">
+            <h3 class="card-title">Diseño</h3>
+            <div class="card-letter">B</div>
+          </div>
+          <ul class="card-list">
+            <li>Accesibilidad</li>
+            <li>Animación</li>
+            <li>Motion guidelines</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
+    <div class="card">
+      <div class="card-inner tilt">
+        <div class="card-face">
+          <div class="card-head">
+            <h3 class="card-title">Código</h3>
+            <div class="card-letter">C</div>
+          </div>
+          <ul class="card-list">
+            <li>Frontend (SPA/SSR)</li>
+            <li>Integración APIs</li>
+            <li>Performance</li>
+          </ul>
+          <div class="muted mono">hover para girar</div>
+        </div>
+        <div class="card-face back">
+          <div class="card-head">
+            <h3 class="card-title">Código</h3>
+            <div class="card-letter">C</div>
+          </div>
+          <ul class="card-list">
+            <li>Tooling moderno</li>
+            <li>Testing</li>
+            <li>DevOps básico</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-<!-- JS: ordenado por tipo -->
-<script src="assets/main.js" defer></script>
-<script src="assets/particles.js" defer></script>
-<script type="module" src="assets/fx3d.js"></script>
+    <div class="card">
+      <div class="card-inner tilt">
+        <div class="card-face">
+          <div class="card-head">
+            <h3 class="card-title">Contenido</h3>
+            <div class="card-letter">D</div>
+          </div>
+          <ul class="card-list">
+            <li>Narrativas</li>
+            <li>SEO técnico</li>
+            <li>Documentación</li>
+          </ul>
+          <div class="muted mono">hover para girar</div>
+        </div>
+        <div class="card-face back">
+          <div class="card-head">
+            <h3 class="card-title">Contenido</h3>
+            <div class="card-letter">D</div>
+          </div>
+          <ul class="card-list">
+            <li>Guías editoriales</li>
+            <li>Catálogos</li>
+            <li>Playbooks</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contacto">
+    <div class="footer-grid">
+      <div class="foot-brand reveal is-in">
+        <div class="brand">
+          <span class="mark"></span>
+          <span>Estudio Demo</span>
+        </div>
+        <p class="muted">Hecho por Gabriel como demo libre de derechos. Inspirado en un layout propio, sin activos propietarios.</p>
+      </div>
+      <div class="foot-news reveal is-in">
+        <strong>Newsletter</strong>
+        <form class="newsletter" onsubmit="event.preventDefault(); alert('¡Gracias! (demo)');">
+          <input type="email" placeholder="tu@email.com" aria-label="Correo" required>
+          <button type="submit">Enviar</button>
+        </form>
+        <div class="foot-bottom">
+          <span class="mono">© <span id="year">2025</span> Estudio Demo</span>
+          <a class="mono" href="#inicio">Volver arriba ↑</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS: ordenado por tipo -->
+  <script src="assets/main.js" defer></script>
+  <script src="assets/particles.js" defer></script>
+  <script type="module" src="assets/fx3d.js"></script>
 </body>
 </html>
